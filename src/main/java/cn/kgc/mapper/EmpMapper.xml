@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.kgc.mapper.EmpMapper" >
+  <resultMap id="BaseResultMap" type="cn.kgc.domain.Emp" >
+    <id column="eid" property="eid" jdbcType="INTEGER" />
+    <result column="ename" property="ename" jdbcType="VARCHAR" />
+    <result column="esex" property="esex" jdbcType="CHAR" />
+    <result column="estartime" property="estartime" jdbcType="TIMESTAMP" />
+    <result column="epay" property="epay" jdbcType="REAL" />
+    <result column="did" property="did" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
